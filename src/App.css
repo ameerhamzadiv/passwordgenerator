@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  width: 400px;
+  padding: 1.5rem;
+  margin-top: 20%;
+  border: solid 1px #e9e9e9;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+.input-container{
+  display: flex;
+  align-items: center;
+}
+
+.input-field{
+  outline: none;
+  background: none;
+  border: 1px solid #e5e5e5;
+  padding: 1rem 1rem;
+  margin-top: 5px;
+  width: 100%;
+  color:
+   #000;
+}
+
+button{
+  background: #000000;
+  color: #fff;
+  border: none;
+  padding: 0.40rem;
+  cursor: pointer;
+  font-size: 0.55rem;
+  margin-top: 5px;
+  margin-left: -47px;
+}
+
+.checkbox-container{
+  display: flex;
+  gap: 0.35rem;
+}
+
+.length{
+    display: flex;
+    gap: 0.55rem;
+    margin: 12px 0;
+}
+.range{
+  width: 100%;
+}
